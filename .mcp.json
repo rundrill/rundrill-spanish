@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rundrill-spanish": {
+      "type": "http",
+      "url": "https://mcp.rundrill.com/lang/spanish"
+    }
+  }
+}

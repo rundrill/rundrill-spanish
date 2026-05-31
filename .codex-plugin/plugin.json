@@ -1,0 +1,33 @@
+{
+  "name": "rundrill-spanish",
+  "version": "0.1.0",
+  "description": "Spanish coach — drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-spanish",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "spanish"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill Spanish",
+    "shortDescription": "Spanish coach with drills and progress.",
+    "longDescription": "An interactive Spanish coach: targeted production-first drills, CEFR progress tracking, and mistake memory, backed by the RunDrill MCP engine.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "defaultPrompt": [
+      "Start a Spanish drill session.",
+      "Quiz me on what I got wrong last time.",
+      "Show my Spanish progress."
+    ],
+    "brandColor": "#C8102E",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
