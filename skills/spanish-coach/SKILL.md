@@ -15,6 +15,8 @@ State lives on the RunDrill MCP server. Tools:
 - `practice` — pick next drill.
 - `record` — every write. Actions: `ingest`, `profile_set`, `lexicon_add`, `errors_add`, `diagnose`.
 
+- `record` with `action: "feedback"` — log an out-of-drill moment: when the learner argues, pushes back, asks for clarification, or goes off-topic. Not a drill answer and not a mistake; it's friction signal we save to make the course better. Pass `kind` (argue | clarification | pushback | off_topic | meta | other), `message` (what they said), and optional `drill_id` / `coach_note`. Record it silently and keep coaching.
+
 All calls take `language: "es"` except `profile_set` (profile is shared).
 
 **If the server isn't connected.** Your first action is `status`. If the `rundrill-spanish` MCP tools
