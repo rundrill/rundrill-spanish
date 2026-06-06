@@ -142,15 +142,7 @@ Call `practice`; **render the drill by following `brief.instructions` and `brief
 per-format notes, preferred format). Present one item at a time, wait for the answer, then react before
 the next — **correct items get a warm ≤6-word note; wrong items get a brief visible correction with one
 reason, never a bare ack or generic praise.** Pass/fail is all-or-nothing: `result: "ok"` only if every
-item was right.
-
-A few rendering rules the brief assumes:
-- **New topic (`not_seen`):** before item 1, give a 3–6 line plain-language rule explainer — no grammar
-  jargon below B2 (what the form does; one concrete contrast pair, e.g. ser vs estar; one rule of
-  thumb). Skip it for weak / learning / strong (repeat encounters — jump in).
-- **Production formats** (flashcard-production, cloze): don't reveal the example — it usually contains
-  the target form. Number MCQ options `1) 2) 3)`, never `A) B) C)`.
-- Offer a generated picture for a new word or scene if it would help (don't force it).
+item was right. Offer a generated picture for a new word or scene if it would help (don't force it).
 
 After each drill record by axis: `record {action:"grammar", topic_id, result}` /
 `{action:"vocab", vocab_results}` / `{action:"reading", result}`. On any wrong item also
